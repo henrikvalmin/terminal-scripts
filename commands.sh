@@ -4,7 +4,7 @@
 
 # opens matlab style python interactive mode
 function pylab() {
-  python3 -i ./imports.py
+  python3 -i ./terminal-scripts/imports.py
 }
 
 
@@ -31,10 +31,10 @@ function marco() {
 # runs note writing script
 function note() {
  if [[ $1 = "-r" ]]; then
-	python3 ./noteread.py
+	python3 ./terminal-scripts/noteread.py
  else 
  if [[ $1 = "-w" ]]; then
-	python3 ./notewrite.py
+	python3 ./terminal-scripts/notewrite.py
  fi
  fi
 
