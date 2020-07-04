@@ -1,1 +1,1 @@
-Just some basic terminal functions and python scripts for effeciancy. 
+Just some basic terminal functions and python scripts for efficiency. 
