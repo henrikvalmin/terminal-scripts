@@ -1,11 +1,12 @@
+from matplotlib.pyplot import *
 from math import *
 import cmath 
-import numpy
+import numpy as np
 
 # ---- Shortcut to inverse -----
 def inv(x):
-	x = numpy.array(x)
-	y = numpy.linalg.inv(x)
+	x = np.array(x)
+	y = np.linalg.inv(x)
 	print(y)
 
 
